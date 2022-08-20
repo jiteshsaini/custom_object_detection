@@ -23,6 +23,8 @@ The notebook allows you to create and download a custom model using your data.
 
 ## Running your custom model
 
-You can use a Pi camera or a USB camera with your Raspberry Pi to run the python file 'detect.py'. The packages and libraries required to run this file can be installed through bash script 'setup.sh'. 
+The packages and libraries required to run this file can be installed through bash script by running the command 'sudo sh setup.sh' in terminal. 
 
-The python script also supports Google Coral USB Accelerator. If you want to use Coral Acc, just make sure that you make the variable 'edgetpu' as '1' and provide the path to the model created for Coral Acc. Both folder i.e. 'pretrained' and 'custom' contains models that can run on Coral Acc. The name of these models ends with 'edgetpu'.
+Run the python file using the command 'python3 detect.py'
+
+You can use a Pi camera or a USB camera with your Raspberry Pi to run the python file 'detect.py'. The python script also supports Google Coral USB Accelerator. If you want to use Coral Acc, just make sure that you set the variable 'edgetpu' as '1' and provide the path to the model created for Coral Acc. Both folder i.e. 'pretrained' and 'custom' contains models that can run on Coral Acc. The name of these models ends with 'edgetpu'.
