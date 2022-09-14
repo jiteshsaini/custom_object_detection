@@ -1,4 +1,12 @@
 # Train and Deploy Custom Object Detection Model on Raspberry Pi
+<p align="left">
+Read the :- <a href='https://helloworld.co.in/article/custom-object-detection-model' target='_blank'>
+   complete article here.
+</a> 
+Watch Video :- <a href='https://youtu.be/kjuStyfl6yk' target='_blank'>
+   on Youtube.
+</a> 
+</p>
 
 This repo contains a python script and few Object Detection models. These models are placed in two folders i.e. 'custom' and 'pretrained'. The model in 'custom' folder is created using Tensorflow Lite Model maker and trained to detect 3 types of objects as shown below. 
 
